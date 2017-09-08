@@ -1,0 +1,61 @@
+.infoWindow {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    color: white;
+    border-radius: 1em;
+
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+
+.levelNumber {
+    font-size: 1.5em;
+    margin: 0;
+    color: white;
+    font-family: 'Pixar';
+}
+
+.levelDescription {
+    opacity: .9;
+    margin: 0;
+}
+
+.filler {
+    flex-grow: 3;
+}
+
+.infoTries {
+    font-family: 'Pixar';
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.infoSuccess {
+	font-family: 'Pixar';
+	font-size: 1.5em;
+	margin-right: 1em;
+}
+
+.infoAlert {
+    font-family: 'Pixar';
+    color: #e74c3c;
+    margin: 0;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.infoPoints {
+	font-family: 'Pixar';
+	color: #2ecc71;
+	margin: 0;
+	font-size: 1.5em;
+	margin-left: 1em;
+}
+
+.maxTries {
+    font-weight: bold;
+    font-size: 1.6em;
+}

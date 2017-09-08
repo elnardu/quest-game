@@ -1,0 +1,53 @@
+.skinContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+.skinUsername {
+    color: white;
+    font-size: 2em;
+    font-family: 'Pixar';
+}
+
+.skinImage {
+    width: 80%;
+    height: auto;
+
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+
+}
+
+.skinProp {
+    color: white;
+    font-family: 'Uni';
+    margin: 0;
+}
+
+.skinCard {
+    width: 90%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.7);;
+    /*opacity: .7;*/
+    padding: 1em;
+    border-radius: 0.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skinPoints {
+	color: #2ecc71;
+	font-size: 1.5em;
+}

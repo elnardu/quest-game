@@ -1,0 +1,19 @@
+.loginWindow {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 3em;
+	color: white;
+	border-radius: 1em;
+	width: 50%;
+	max-width: 25em;
+	/*height: 60%;*/
+	font-family: 'Pixar';
+}
+
+.loginWindow > button {
+	width: 100%;
+}
+
+.loginWindow > a {
+	width: 100%;
+	margin-top: 10px !important;
+}

@@ -1,0 +1,43 @@
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+		padding: 1.5em;
+    height: 100vh;
+    z-index: 1;
+}
+
+.finalScreen {
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: screen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loader {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4em;
+    height: 4em;
+}
+
+.loader > div {
+    width: 2em !important;
+    height: 2em !important;
+}
+
+.none {
+    display: none;
+}

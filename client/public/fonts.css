@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Pixar';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./Pixar_one_regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Uni';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./uni.ttf');
+}

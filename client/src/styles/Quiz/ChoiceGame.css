@@ -1,0 +1,35 @@
+.choicegameWindow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	height: 100%;
+	width: 100%;
+}
+
+.choicegameWindow > ol {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.choicegameWindow > ol > li {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	margin-top: 0.5em;
+
+	padding: 1em;
+	color: white;
+	border-radius: 1em;
+	font-size: 1.5em;
+	font-family: 'Pixar';
+	/*text-align: center;*/
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.choicegameWindow > ol > li:hover {
+	box-shadow: 0px 0px 81px -1px rgba(0,0,0,0.75);
+}

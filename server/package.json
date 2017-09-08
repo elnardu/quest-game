@@ -1,0 +1,19 @@
+{
+  "name": "game-server",
+  "author": "Elnard Utiushev <elnardu2@gmail.com>",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "express": "^4.13.4",
+    "jsonwebtoken": "~7.1.9",
+    "mongoose": "~4.6.3",
+    "morgan": "~1.7.0",
+    "socket.io": "^1.4.5",
+    "socketio-jwt": "^4.5.0"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js"
+  }
+}

@@ -1,0 +1,31 @@
+.world-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	z-index: 1;
+}
+
+.world-display {
+	position: absolute;
+	/*margin-top: 2em;*/
+	height: 50%;
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 0.5em;
+	font-family: "Pixar";
+	color: white;
+	padding: 1em;
+}
+
+.todashboard {
+	width: 95%;
+	/*height: 5%;*/
+	margin-bottom: 1em;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 1em;
+	font-family: "Pixar";
+	color: white;
+	padding: 1em;
+}

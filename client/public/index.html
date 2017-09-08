@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/inkjs/ink.css">
+    <script>
+        WebFontConfig = {
+            custom: {
+                families: ['Pixar', 'Uni'],
+                urls: ['%PUBLIC_URL%/fonts.css']
+            }
+        };
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = '%PUBLIC_URL%/webfont.js';
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+    <title>GO!</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="blur"></div>
+  </body>
+</html>

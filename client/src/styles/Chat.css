@@ -1,0 +1,87 @@
+.chat {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat-messages {
+    width: 85%;
+    height: 80%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    overflow-x: scroll;
+}
+
+.chat-message {
+    width: 100%;
+    padding: 0.5em;
+    /*color: white;*/
+    margin: 0;
+    font-family: 'Pixar';
+
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.chat-message > span {
+    font-weight: bold;
+}
+
+.type-info {
+    color: rgba(189, 195, 199,1.0);
+}
+
+.type-user {
+    color: white;
+}
+
+.type-server {
+    color: rgba(142, 68, 173,1.0);
+}
+
+.type-admin {
+    color: rgba(231, 76, 60,1.0);
+}
+
+.chat > form {
+    width: 85%;
+}
+
+.chat-input {
+    font-family: 'Pixar' !important;
+	color: white;
+	background: transparent !important;
+	width: 100%;
+	border: none !important;
+	outline: none !important;
+    /*margin-top: 1em;*/
+    font: 1.5em !important;
+    /*padding: 5px;*/
+    transition: all 0.5s ease-out;
+    height: 2em !important;
+
+
+    -webkit-box-shadow: 0px 0px 81px -1px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 0px 81px -1px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 0px 81px -1px rgba(0,0,0,0.75) !important;
+}
+
+.inputSubmitButton {
+	font-family: 'Pixar' !important;
+	/*padding: 0 !important;*/
+}
+
+.chat-input:focused {
+    -webkit-box-shadow: 0px 0px 81px -1px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 81px -1px rgba(0,0,0,0);
+    box-shadow: 0px 0px 81px -1px rgba(0,0,0,0);
+}
